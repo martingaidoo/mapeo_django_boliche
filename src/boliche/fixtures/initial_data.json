@@ -1,0 +1,343 @@
+[
+    {
+        "model": "boliche.ingrediente",
+        "pk": 1,
+        "fields": {
+            "nombre": "vodka",
+            "descripcion": "frutos rojos",
+            "marca": "smirnoff"
+        }
+    },
+    {
+        "model": "boliche.ingrediente",
+        "pk": 2,
+        "fields": {
+            "nombre": "vodka",
+            "descripcion": "durazno",
+            "marca": "sky"
+        }
+    },
+    {
+        "model": "boliche.ingrediente",
+        "pk": 3,
+        "fields": {
+            "nombre": "bebida energizante",
+            "descripcion": "bebida energizante",
+            "marca": "speed"
+        }
+    },
+    {
+        "model": "boliche.ingrediente",
+        "pk": 4,
+        "fields": {
+            "nombre": "jugo",
+            "descripcion": "jugo de durazno",
+            "marca": "cepita"
+        }
+    },
+    {
+        "model": "boliche.ingrediente",
+        "pk": 5,
+        "fields": {
+            "nombre": "Gin",
+            "descripcion": "Bebida alcohólica destilada con sabor a enebro",
+            "marca": "Tanqueray"
+        }
+    },
+    {
+        "model": "boliche.ingrediente",
+        "pk": 6,
+        "fields": {
+            "nombre": "fernet",
+            "descripcion": "fernet",
+            "marca": "branca"
+        }
+    },
+    {
+        "model": "boliche.ingrediente",
+        "pk": 7,
+        "fields": {
+            "nombre": "cola",
+            "descripcion": "coca cola",
+            "marca": "coca cola"
+        }
+    },
+    {
+        "model": "boliche.barra",
+        "pk": 1,
+        "fields": {
+            "numeroBarra": 1,
+            "ubicacion": "Planta Baja"
+        }
+    },
+    {
+        "model": "boliche.barra",
+        "pk": 2,
+        "fields": {
+            "numeroBarra": 2,
+            "ubicacion": "Primer Piso"
+        }
+    },
+    {
+        "model": "boliche.barra",
+        "pk": 3,
+        "fields": {
+            "numeroBarra": 3,
+            "ubicacion": "Terraza"
+        }
+    },
+    {
+        "model": "boliche.consumicion",
+        "pk": 1,
+        "fields": {
+            "nombre": "jarra smirnoff",
+            "precio": 5.5
+        }
+    },
+    {
+        "model": "boliche.consumicion",
+        "pk": 2,
+        "fields": {
+            "nombre": "jarra sky",
+            "precio": 6.0
+        }
+    },
+    {
+        "model": "boliche.consumicion",
+        "pk": 3,
+        "fields": {
+            "nombre": "jarra fernet",
+            "precio": 7.5
+        }
+    },
+    {
+        "model": "boliche.consumicion",
+        "pk": 4,
+        "fields": {
+            "nombre": "Cerveza",
+            "precio": 3.0
+        }
+    },
+    {
+        "model": "boliche.consumicion",
+        "pk": 5,
+        "fields": {
+            "nombre": "Agua",
+            "precio": 1.5
+        }
+    },
+    {
+        "model": "boliche.venta",
+        "pk": 1,
+        "fields": {
+            "codigo": 54612,
+            "fecha": "2024-05-20",
+            "hora": "22:30:00",
+            "barra": 1
+        }
+    },
+    {
+        "model": "boliche.venta",
+        "pk": 2,
+        "fields": {
+            "codigo": 68476,
+            "fecha": "2024-05-20",
+            "hora": "21:00:00",
+            "barra": 2
+        }
+    },
+    {
+        "model": "boliche.venta",
+        "pk": 3,
+        "fields": {
+            "codigo": 84612,
+            "fecha": "2024-05-20",
+            "hora": "23:15:00",
+            "barra": 1
+        }
+    },
+    {
+        "model": "boliche.venta",
+        "pk": 4,
+        "fields": {
+            "codigo": 32841,
+            "fecha": "2024-05-20",
+            "hora": "23:30:00",
+            "barra": 3
+        }
+    },
+    {
+        "model": "boliche.venta",
+        "pk": 5,
+        "fields": {
+            "codigo": 26181,
+            "fecha": "2024-05-20",
+            "hora": "23:30:00",
+            "barra": 1
+        }
+    },
+    {
+        "model": "boliche.venta",
+        "pk": 6,
+        "fields": {
+            "codigo": 28765,
+            "fecha": "2024-05-20",
+            "hora": "23:00:00",
+            "barra": 2
+        }
+    },
+    {
+        "model": "boliche.venta",
+        "pk": 7,
+        "fields": {
+            "codigo": 87562,
+            "fecha": "2024-05-20",
+            "hora": "21:15:00",
+            "barra": 1
+        }
+    },
+    {
+        "model": "boliche.venta",
+        "pk": 8,
+        "fields": {
+            "codigo": 28756,
+            "fecha": "2024-05-20",
+            "hora": "22:30:00",
+            "barra": 3
+        }
+    },
+    {
+        "model": "boliche.detalleventa",
+        "pk": 1,
+        "fields": {
+            "venta": 1,
+            "consumicion": 1,
+            "cantidad": 2,
+            "precio": 5.5
+        }
+    },
+    {
+        "model": "boliche.detalleventa",
+        "pk": 2,
+        "fields": {
+            "venta": 2,
+            "consumicion": 2,
+            "cantidad": 2,
+            "precio": 6.0
+        }
+    },
+    {
+        "model": "boliche.detalleventa",
+        "pk": 3,
+        "fields": {
+            "venta": 3,
+            "consumicion": 2,
+            "cantidad": 2,
+            "precio": 6.0
+        }
+    },
+    {
+        "model": "boliche.detalleventa",
+        "pk": 4,
+        "fields": {
+            "venta": 4,
+            "consumicion": 3,
+            "cantidad": 1,
+            "precio": 7.5
+        }
+    },
+    {
+        "model": "boliche.detalleventa",
+        "pk": 5,
+        "fields": {
+            "venta": 5,
+            "consumicion": 3,
+            "cantidad": 3,
+            "precio": 7.5
+        }
+    },
+    {
+        "model": "boliche.detalleventa",
+        "pk": 6,
+        "fields": {
+            "venta": 6,
+            "consumicion": 3,
+            "cantidad": 2,
+            "precio": 7.5
+        }
+    },
+    {
+        "model": "boliche.detalleventa",
+        "pk": 7,
+        "fields": {
+            "venta": 7,
+            "consumicion": 1,
+            "cantidad": 1,
+            "precio": 5.5
+        }
+    },
+    {
+        "model": "boliche.detalleventa",
+        "pk": 8,
+        "fields": {
+            "venta": 8,
+            "consumicion": 1,
+            "cantidad": 2,
+            "precio": 5.5
+        }
+    },
+    {
+        "model": "boliche.detalleconsumicion",
+        "pk": 1,
+        "fields": {
+            "consumicion": 1,
+            "ingrediente": 1,
+            "cantidadLitros": 0.2
+        }
+    },
+    {
+        "model": "boliche.detalleconsumicion",
+        "pk": 2,
+        "fields": {
+            "consumicion": 1,
+            "ingrediente": 3,
+            "cantidadLitros": 0.2
+        }
+    },
+    {
+        "model": "boliche.detalleconsumicion",
+        "pk": 3,
+        "fields": {
+            "consumicion": 3,
+            "ingrediente": 5,
+            "cantidadLitros": 0.3
+        }
+    },
+    {
+        "model": "boliche.detalleconsumicion",
+        "pk": 4,
+        "fields": {
+            "consumicion": 3,
+            "ingrediente": 6,
+            "cantidadLitros": 0.3
+        }
+    },
+    {
+        "model": "boliche.detalleconsumicion",
+        "pk": 5,
+        "fields": {
+            "consumicion": 2,
+            "ingrediente": 2,
+            "cantidadLitros": 0.2
+        }
+    },
+    {
+        "model": "boliche.detalleconsumicion",
+        "pk": 6,
+        "fields": {
+            "consumicion": 2,
+            "ingrediente": 4,
+            "cantidadLitros": 0.3
+        }
+    }
+]
