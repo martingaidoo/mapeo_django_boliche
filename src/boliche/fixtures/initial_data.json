@@ -305,6 +305,7 @@
         }
     },
     {
+       
         "model": "boliche.detalleconsumicion",
         "pk": 3,
         "fields": {
